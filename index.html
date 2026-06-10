@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Njeru | Data Scientist</title>
 
 ```
+<title>Daniel Njeru | Data Scientist & Machine Learning Engineer</title>
+
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script defer src="script.js"></script>
 ```
 
 </head>
@@ -18,31 +20,42 @@
 <body>
 
 ```
-<!-- NAVIGATION -->
+<!-- NAVBAR -->
 
-<nav>
+<nav class="navbar">
+
     <div class="logo">
         Daniel Njeru
     </div>
 
-    <ul>
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
         <li><a href="#about">About</a></li>
+
         <li><a href="#skills">Skills</a></li>
+
         <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#education">Education</a></li>
+
         <li><a href="#contact">Contact</a></li>
+
     </ul>
+
 </nav>
 
 <!-- HERO -->
 
-<header class="hero">
+<section id="home" class="hero">
 
-    <div class="hero-container">
+    <div class="hero-content">
 
         <div class="hero-text">
 
-            <span class="badge">
-                MSc Data Science • AI • Analytics
+            <span class="hero-tag">
+                Data Scientist & Machine Learning Engineer
             </span>
 
             <h1>
@@ -50,23 +63,23 @@
             </h1>
 
             <h2>
-                Data Scientist • Machine Learning • Artificial Intelligence
+                Turning Data Into Decisions
             </h2>
 
             <p>
-                Transforming complex datasets into actionable business insights
-                through analytics, machine learning, artificial intelligence,
-                and data storytelling.
+                I build data-driven solutions that transform complex
+                information into actionable business insights through
+                analytics, machine learning, and intelligent systems.
             </p>
 
-            <div class="buttons">
+            <div class="hero-buttons">
 
-                <a href="#projects" class="primary-btn">
+                <a href="#projects" class="btn-primary">
                     View Projects
                 </a>
 
-                <a href="#contact" class="secondary-btn">
-                    Contact Me
+                <a href="#" class="btn-secondary">
+                    Download Resume
                 </a>
 
             </div>
@@ -82,69 +95,109 @@
 
     </div>
 
-</header>
+</section>
 
 <!-- ABOUT -->
 
-<section id="about">
+<section id="about" class="section">
 
     <h2>About Me</h2>
 
-    <p>
-        I am a results-oriented Data Scientist with expertise in Python,
-        SQL, machine learning, artificial intelligence, and business
-        intelligence. My work focuses on transforming raw data into
-        actionable insights through statistical analysis, predictive
-        modeling, and data storytelling.
-    </p>
+    <div class="about-container">
 
-    <br>
+        <div class="about-card">
 
-    <p>
-        Currently pursuing a Master of Science in Data Science, I continue
-        to expand my expertise in machine learning, data engineering,
-        artificial intelligence, and scalable analytics solutions that
-        create measurable business value.
-    </p>
+            <p>
+
+                [PLACEHOLDER]
+
+                Add your professional summary here.
+
+                Include your background, experience,
+                specialization, and career interests.
+
+            </p>
+
+        </div>
+
+    </div>
 
 </section>
 
 <!-- SKILLS -->
 
-<section id="skills">
+<section id="skills" class="section">
 
-    <h2>Core Competencies</h2>
+    <h2>Technical Skills</h2>
 
-    <div class="grid">
+    <div class="skills-grid">
 
-        <div class="card">
+        <div class="skill-card">
             <h3>Data Analytics</h3>
-            <p>Python • SQL • Excel • Statistics • EDA</p>
+            <p>Placeholder</p>
         </div>
 
-        <div class="card">
+        <div class="skill-card">
             <h3>Machine Learning</h3>
-            <p>Predictive Modeling • Feature Engineering • NLP</p>
+            <p>Placeholder</p>
         </div>
 
-        <div class="card">
-            <h3>Artificial Intelligence</h3>
-            <p>LLMs • RAG • Deep Learning • Generative AI</p>
-        </div>
-
-        <div class="card">
-            <h3>Business Intelligence</h3>
-            <p>Tableau • Dashboards • KPI Monitoring</p>
-        </div>
-
-        <div class="card">
+        <div class="skill-card">
             <h3>Data Engineering</h3>
-            <p>Spark • Kafka • ETL Pipelines • Warehousing</p>
+            <p>Placeholder</p>
         </div>
 
-        <div class="card">
+        <div class="skill-card">
+            <h3>Business Intelligence</h3>
+            <p>Placeholder</p>
+        </div>
+
+        <div class="skill-card">
             <h3>Cloud & MLOps</h3>
-            <p>Git • CI/CD • APIs • Deployment</p>
+            <p>Placeholder</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>NLP</h3>
+            <p>Placeholder</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FEATURED PROJECT -->
+
+<section class="section featured-project">
+
+    <h2>Featured Project</h2>
+
+    <div class="featured-card">
+
+        <div class="featured-image">
+
+            <img src="images/project-placeholder.jpg"
+                 alt="Project Screenshot">
+
+        </div>
+
+        <div class="featured-content">
+
+            <h3>Movie Studio Venture</h3>
+
+            <p>
+
+                [PLACEHOLDER]
+
+                Add project description, objectives,
+                methodology, and findings.
+
+            </p>
+
+            <a href="#">
+                View Project
+            </a>
+
         </div>
 
     </div>
@@ -153,91 +206,65 @@
 
 <!-- PROJECTS -->
 
-<section id="projects">
+<section id="projects" class="section">
 
-    <h2>Featured Projects</h2>
+    <h2>Project Portfolio</h2>
 
-    <div class="grid">
+    <div class="projects-grid">
 
-        <div class="card">
-
-            <h3>🎬 Movie Studio Venture</h3>
-
-            <p>
-                An end-to-end business analytics project examining the
-                factors that drive box office success and profitability.
-            </p>
-
-            <a href="https://github.com/DanDev014/Movie_Studio_Venture"
-               target="_blank">
-                View Project
-            </a>
-
+        <div class="project-card">
+            <h3>Movie Studio Venture</h3>
+            <p>Placeholder</p>
+            <a href="#">GitHub</a>
         </div>
 
-        <div class="card">
-
-            <h3>📱 SyriaTel Customer Churn Prediction</h3>
-
-            <p>
-                Machine learning solution developed to predict customer
-                churn and support retention strategies.
-            </p>
-
-            <a href="https://github.com/DanDev014"
-               target="_blank">
-                View Project
-            </a>
-
+        <div class="project-card">
+            <h3>SyriaTel Churn Prediction</h3>
+            <p>Placeholder</p>
+            <a href="#">GitHub</a>
         </div>
 
-        <div class="card">
-
-            <h3>✈️ Aircraft Safety Analysis</h3>
-
-            <p>
-                Exploratory data analysis project focused on aviation
-                accident trends and safety recommendations.
-            </p>
-
-            <a href="https://github.com/DanDev014"
-               target="_blank">
-                View Project
-            </a>
-
+        <div class="project-card">
+            <h3>Aircraft Safety Analysis</h3>
+            <p>Placeholder</p>
+            <a href="#">GitHub</a>
         </div>
 
-        <div class="card">
-
-            <h3>🚗 Traffic Crash Cause Prediction</h3>
-
-            <p>
-                Predictive analytics project identifying key drivers
-                of road traffic accidents.
-            </p>
-
-            <a href="https://github.com/DanDev014"
-               target="_blank">
-                View Project
-            </a>
-
+        <div class="project-card">
+            <h3>Traffic Crash Prediction</h3>
+            <p>Placeholder</p>
+            <a href="#">GitHub</a>
         </div>
 
-        <div class="card">
-
-            <h3>💊 Medicaid Drug Spending Analytics</h3>
-
-            <p>
-                Healthcare analytics project examining expenditure
-                trends and forecasting future spending.
-            </p>
-
-            <a href="https://github.com/DanDev014"
-               target="_blank">
-                View Project
-            </a>
-
+        <div class="project-card">
+            <h3>Medicaid Drug Analytics</h3>
+            <p>Placeholder</p>
+            <a href="#">GitHub</a>
         </div>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education" class="section">
+
+    <h2>Education</h2>
+
+    <div class="education-card">
+
+        <h3>MSc Data Science</h3>
+
+        <p>
+
+            [PLACEHOLDER]
+
+            University Name
+
+            Expected Graduation Date
+
+        </p>
 
     </div>
 
@@ -245,25 +272,17 @@
 
 <!-- CONTACT -->
 
-<section id="contact">
+<section id="contact" class="section">
 
     <h2>Let's Connect</h2>
 
-    <div class="contact-links">
+    <div class="contact-container">
 
-        <a href="mailto:your-email@example.com">
-            Email
-        </a>
+        <a href="#">Email</a>
 
-        <a href="https://github.com/DanDev014"
-           target="_blank">
-            GitHub
-        </a>
+        <a href="#">LinkedIn</a>
 
-        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"
-           target="_blank">
-            LinkedIn
-        </a>
+        <a href="#">GitHub</a>
 
     </div>
 
@@ -271,5 +290,4 @@
 ```
 
 </body>
-
 </html>
